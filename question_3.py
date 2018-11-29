@@ -1,3 +1,10 @@
+#An ICA supermarket attendant works every day selling to customers. 
+#They have a business where each item you buy,
+#mjolk, Pannkakor, Bröd, Paj, and everything there costs a positive number of Kroner (integers).
+#If bröd costs 22 kroner. There is no item in ICA that costs a decimal value like 10.13 kr 
+#(VAT tax is included in the amount already).
+#Kroner change can be provide in 1 kr, 2kr, 5kr and 10kr. 
+
 
 def getChange(cost, amount):
     change = amount - cost
